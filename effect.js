@@ -52,56 +52,55 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = 200*Math.random();
-		var randtop = 200*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
 	function loopTwo() {
-		var randleft = 300*Math.random();
-		var randtop = 300*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b2').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwo();
 		});
 	}
 	function loopThree() {
-		var randleft = 400*Math.random();
-		var randtop = 400*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b3').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThree();
 		});
 	}
 	function loopFour() {
-		var randleft = 500*Math.random();
+		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
 		$('#b4').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFour();
 		});
 	}
 	function loopFive() {
-		var randleft = 100*Math.random();
-		var randtop = 100*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b5').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFive();
 		});
 	}
 
 	function loopSix() {
-		var randleft = 150*Math.random();
-		var randtop = 150*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
 		});
 	}
 	function loopSeven() {
-		var randleft = 250*Math.random();
-		var randtop = 250*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
 		});
 	}
-
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
 		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
@@ -150,8 +149,8 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: vw-350},500);
-		$('#b22').animate({top:240, left: vw-250},500);
+		$('#b11').animate({top:-1000, left: vw-350},500);
+		$('#b22').animate({top:-1000, left: vw-250},500);
 		$('#b33').animate({top:240, left: vw-150},500);
 		$('#b44').animate({top:240, left: vw-50},500);
 		$('#b55').animate({top:240, left: vw+50},500);
